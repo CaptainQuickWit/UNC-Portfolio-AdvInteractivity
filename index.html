@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+
+<body>
+
+    <!-- header is a jumbotron-->
+    <header class="jumbotron jumbotron-fluid d-flex justify-content-center"><h1>The UNC Weather Dashboard!</h1></header>
+
+    <div class="cointainer-fluid">
+    <div class="row">
+        <section class = "search corners col-4 ">
+            <div class = "d-flex justify-content-center">
+                
+            </div>
+            <h2 class = "d-flex justify-content-center">Weather Report for a city</h2> <!-- this servers to search for a city and displays the history of previous searches-->
+              <div class="row">
+                <div class="col-12 col-sm-6">
+                  <label for="city-search">SearchCity:</label>
+                  <input type="text" class="form-input" name="city-search"/>
+                </div>
+              </div>
+      
+              <button class="btn btn-primary" id="search-button">
+                  Enter
+              </button>
+              <!--search history rendered here -->
+              <div id = "history"></div> 
+        </section> 
+        <!-- todays forecast-->
+        <section class = "corners col-7" id="">
+            <h1 id = "forecastLocationDisplay"class="d-flex justify-content-center">Current Weather Forecast</h1>
+            <div id="current"></div>
+        </section>
+
+    </div>
+    
+    </div>
+    
+    <!-- rest of the weeks forecast will be dynamically rendered here-->
+    <section class ="d-flex flex-row " id="weekForecast"></section>
+    
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

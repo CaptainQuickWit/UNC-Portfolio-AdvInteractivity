@@ -1,0 +1,21 @@
+.hover:hover {
+  color: green;
+}
+
+.low {
+  color: green;
+}
+.moderate {
+  color: orange;
+}
+.high {
+  color: red;
+}
+
+.corners {
+  border-radius: 30px;
+  border: 5px solid #73AD21;
+  padding: 20px;
+  margin: 20px;
+
+}
