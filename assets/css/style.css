@@ -110,6 +110,8 @@ body {
     
   }
 
+  img { max-width: 95%; height: auto; }
+
   #project-1 {
 
     width: 1000px;
