@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chetan's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
@@ -43,39 +44,96 @@
             </article>
 
         </div>
-        
-        <!--this section has the portfolio of programming projects-->
-        <section>
-          <h2>Portfolio:</h2>
-          <br>
-          <br>
 
-          <div id = "portfolio">
+        <main class="d-flex min-vh-100 bg-dark">
+          <div class="container-fluid my-auto">
+            <h3 class="display-2 text-center text-light">--Portfolio--</h3>
+            <div class="row justify-content-center">
+      
+              <div class="col-12 col-sm-10">
+                <div class="card">
+                  <h4 class="card-header d-flex justify-content-center">Event Listener ()</h4>
+                  <!-- <a href="https://github.com/Gpphelps/Event-Listener" target="blank"></a>-->
+                  <img src="./assets/css/images/eventproj.png" alt="screen shot of event listener project">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Event Listener() is a mobile-first web application that helps users find events based on their current location or a searched location. Currently, Event Listener() is limited to locations in North America.
+ 
+                    </p>
+                    
+                    <a href="https://github.com/Gpphelps/Event-Listener" target="blank"><button class="btn btn-primary btn-block">Github</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <section class = "code-refactor">
-                <a target="_blank" href="https://captainquickwit.github.io/"> 
-                    <img src="./assets/css/images/refactor.png" alt="Code Refactor">
+            <div class="row justify-content-center py-5">
+              <div class="col-12 col-sm-5">
+                <div class="card">
+                  <h4 class="card-header d-flex justify-content-center">UNC-Weather-Dashboard</h4>
 
-                </a>
-                <a target="_blank" class ="block" href="https://github.com/CaptainQuickWit/UNC-SEO-code-refactor">Github Repository</a> 
-                
-            </section>
-
-            <!-- eventlistener project 1-->
-            <section class="project-main">
-                
-                <a target="_blank" href="https://gpphelps.github.io/Event-Listener/index.html"> 
-                    <img src="./assets/css/images/eventproj.png" alt="EventListener App" id="project-1"> 
-                </a>
-                <a target="_blank" class ="blockEle" href="https://github.com/Gpphelps/Event-Listener">Github Repo Main Branch </a> 
-                <a target="_blank" href="https://github.com/Gpphelps/Event-Listener/tree/chetan-branch">Github Repo My Branch</a> 
-            </section>
+                  <img src="./assets/css/images/weatherdash.png" alt="picture of a weather dashboard">
+                  <div class="card-body">
+                    <p class="card-text">
+                      demonstrating my expertise with server side api's this dashboard fetch's weather forecasts and displays it. Utilizes localstorage. 
+                    </p>
+                    <a href="https://github.com/CaptainQuickWit/UNC-Weather-Dashboard" target="blank"><button class="btn btn-primary btn-block">Github</button></a>
+                  </div>
+                </div>
+              </div>
 
 
-           
+
+              <div class="col-12 col-sm-5 ">
+                <div class="card">
+                  <h4 class="card-header d-flex justify-content-center">UNC-Day-Planner</h4>
+                  <img src="./assets/css/images/dayplanner.png" alt="a Daily planner project">
+                  <div class="card-body">
+                    <p class="card-text">
+                      User puts down notes and is color coded by the hour to let user know when each task needs to be completed. Utlizlies localstorage.
+                    </p> 
+                    <a href="https://github.com/CaptainQuickWit/UNC-Day-Planner" target="blank"><button class="btn btn-primary btn-block">Github</button></a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+
+            <div class="row justify-content-center py-5">
+      
+              <div class="col-12 col-sm-5">
+                <div class="card">
+                  <h4 class="card-header d-flex justify-content-center">UNC-PassWord-Generator</h4>
+                  <img src="./assets/css/images/pwgenerator.png" alt="website that generates random password">
+                  <div class="card-body">
+                    <p class="card-text">
+                      This web application generates a random password based off of inputs the user inputs 
+                    </p> 
+                    <a href="https://github.com/CaptainQuickWit/UNC-Password_Generator" target="blank"><button class="btn btn-primary btn-block">Github</button></a>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-12 col-sm-5 ">
+                <div class="card">
+                  <h4 class="card-header d-flex justify-content-center">UNC-Portfolio-AdvInteractivity</h4>
+                  <img src="./assets/css/images/portfolio2.png" alt="2nd Portfolio project">
+                  <div class="card-body">
+                    <p class="card-text">
+                      This portfolio, updated to demonstrate my web applications are now interactive, utlizlies bootstrap cards for a cleaner layout. 
+                    </p>
+                    <a href="https://github.com/CaptainQuickWit/UNC-Portfolio-AdvInteractivity" target="blank"><button class="btn btn-primary btn-block">Github</button></a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
           </div>
-
-        </section>
+        </main>
       
     </section>
      
@@ -118,4 +176,7 @@
         
     </footer>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </html>
