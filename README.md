@@ -1,48 +1,105 @@
-# 06 Server-Side APIs: Weather Dashboard
-
-deployed: https://captainquickwit.github.io/UNC-Weather-Dashboard/
+# 02 Advanced CSS: Portfolio
 
 ## Your Task
 
-Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
 
-Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that provides basic setup and usage instructions. You will use `localStorage` to store any persistent data.
+A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
 
-Screenshots:
+With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
 
-![Screen Shot 2021-07-16 at 9 39 33 PM](https://user-images.githubusercontent.com/73507926/126021824-803c4177-88af-457e-a536-f6b43ff79042.png)
-![Screen Shot 2021-07-16 at 9 39 15 PM](https://user-images.githubusercontent.com/73507926/126021827-dfd8d33a-9a94-49ca-8b09-0c922e874b7d.png)
-![Screen Shot 2021-07-16 at 9 39 22 PM](https://user-images.githubusercontent.com/73507926/126021829-2ed0a26a-a91b-4b41-848b-7fe5298cd87c.png)
+**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
+
+
+
+![portfolio1pic2](https://user-images.githubusercontent.com/73507926/124726239-92618200-dedb-11eb-9569-6721c4ff1b3a.png)
+
+![portfolio1pic](https://user-images.githubusercontent.com/73507926/124726354-ab6a3300-dedb-11eb-8ba7-66cff01fdebd.png)
+
+
+
+
+## User Story
+
+```
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
+
+
+## Acceptance Criteria
+
+Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+
+```
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive laTyout that adapts to my viewport
+```
+
+
+## Mock-Up
+
+The following animation shows the web application's appearance and functionality:
+
+![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
 
 
 ## Grading Requirements
+
 This homework is graded based on the following criteria: 
+
 ### Technical Acceptance Criteria: 40%
-* Satisfies all of the above acceptance criteria plus the following:
-    * Uses the OpenWeather API to retrieve weather data.
-    * Uses `localStorage` to store persistent data.
+
+* Satisfies all of the above acceptance criteria.
+
 ### Deployment: 32%
+
 * Application deployed at live URL.
+
 * Application loads with no errors.
+
 * Application GitHub URL submitted.
-* GitHub repository that contains application code.
+
+* GitHub repository contains application code.
+
 ### Application Quality: 15%
-* Application user experience is intuitive and easy to navigate.
-* Application user interface style is clean and polished.
+
 * Application resembles the mock-up functionality provided in the homework instructions.
+
 ### Repository Quality: 13%
+
 * Repository has a unique name.
+
 * Repository follows best practices for file structure and naming conventions.
+
 * Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
 * Repository contains multiple descriptive commit messages.
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
+
+* Repository contains quality readme with description, screenshot, link to deployed application.
+
 ## Review
 
 You are required to submit BOTH of the following for review:
-* The URL of the functional, deployed application.
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
 
+* The URL of the deployed application.
+
+* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+
+deployed link: https://captainquickwit.github.io/UNC-Portfolio1/
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
